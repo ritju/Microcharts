@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
@@ -23,7 +23,7 @@
         <DocumentationFile>bin\Debug\$(TargetFramework)\Microcharts.xml</DocumentationFile>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="SkiaSharp" Version="2.88.0-preview.61" />
+        <PackageReference Include="SkiaSharp" Version="2.88.0-preview.150" />
         <PackageReference Include="System.ValueTuple" Version="4.5.0" />
     </ItemGroup>
 
